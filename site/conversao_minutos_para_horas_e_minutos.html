@@ -9,7 +9,9 @@
         var min = prompt("Digite o minuto:")
         min = parseInt (min)
 
-        alert(min / 60)
+        var horas = (parseInt(min /60))
+        var minutos = (parseInt(tempo % 60))
+        alert(horas + minutos)
     </script>
 </head>
 <body>
